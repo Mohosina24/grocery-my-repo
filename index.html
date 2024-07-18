@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healty Eats website </title>
+    <!-- fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- fonts link end -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sanserif">
+    <header class="">
+       <div class=" header-continer ">
+        <!-- header part-1  start -->
+       <div class="header-part1 bg-green-900 p-3">
+              <h2 class="text-xl text-center text-white font-Montserrat ">FREE Shipping ! FREE Shipping ! For Orders ABOVE ৳999/-</h2>
+       </div>
+        <!-- header part-1  end -->
+        <!-- start navigration section  -->
+        <nav class=" nav-container font-Josefin Sans    ">
+            <div class="navbar bg-base-100 bg-white ">
+                <div class="navbar-start">
+                  <div class="dropdown ">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm gap-5 text-xl dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      
+                      <li>
+                        <a>Home</a>
+                        <!-- <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul> -->
+                      </li>
+                      <li><a>About</a></li>
+                      <li>
+                        <a>Products</a>
+                        <ul class="p-2">
+                          <li><a>Fruits</a></li>
+                          <li><a>Vegitable</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                 <img class="ml-10" src="./images/logo (1).jpg" alt="">
+        
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                  <ul class="menu menu-horizontal px-1 text-xl">
+                  
+                    <li><a href="index.html">Home</a></li>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                   
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              
+                <div class="navbar-end mr-10">
+                    
+                    <button class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                    </button>
+                    <!-- login/resgister option -->
+                    <div class="text-xl m-5">
+                        <a  href="login.html">Login / register</a>
+                      </div>
+
+
+                    <button class="btn btn-ghost btn-circle">
+                      <div class="indicator">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                          <path d="M17.3667 3.97161C16.9411 3.54578 16.4357 3.20798 15.8795 2.97751C15.3233 2.74704 14.7271 2.62842 14.1251 2.62842C13.523 2.62842 12.9268 2.74704 12.3706 2.97751C11.8144 3.20798 11.309 3.54578 10.8834 3.97161L10.0001 4.85494L9.11673 3.97161C8.25698 3.11186 7.09092 2.62886 5.87506 2.62886C4.6592 2.62886 3.49314 3.11186 2.63339 3.97161C1.77365 4.83135 1.29065 5.99741 1.29065 7.21327C1.29065 8.42913 1.77365 9.5952 2.63339 10.4549L3.51672 11.3383L10.0001 17.8216L16.4834 11.3383L17.3667 10.4549C17.7926 10.0293 18.1304 9.52395 18.3608 8.96773C18.5913 8.41152 18.7099 7.81535 18.7099 7.21327C18.7099 6.6112 18.5913 6.01503 18.3608 5.45881C18.1304 4.90259 17.7926 4.39724 17.3667 3.97161Z" stroke="#333333" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                        <span class="badge badge-xl p-1 text-white badge-primary indicator-item" style="background-color: black;">0</span>
+                      </div>
+                    </button>
+                    <button class="btn btn-ghost btn-circle">
+                      <div class="indicator">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                            <g clip-path="url(#clip0_152_684)">
+                              <path d="M14.0367 5.90967H5.96335C4.4433 5.90967 3.21106 7.14191 3.21106 8.66196V16.7354C3.21106 18.2554 4.4433 19.4876 5.96335 19.4876H14.0367C15.5568 19.4876 16.789 18.2554 16.789 16.7354V8.66196C16.789 7.14191 15.5568 5.90967 14.0367 5.90967Z" stroke="#333333" stroke-width="1.2844" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M12.8441 9.12069V3.41244C12.8427 3.06152 12.7687 2.71468 12.6265 2.39382C12.4844 2.07296 12.2774 1.78504 12.0184 1.54822C11.4681 1.04339 10.7468 0.766031 10 0.772069C8.4349 0.772069 7.15601 1.95923 7.15601 3.41244V9.12069" stroke="#333333" stroke-width="1.2844" stroke-miterlimit="10" stroke-linecap="round"/>
+                              <path d="M7.15592 10.4966C7.81461 10.4966 8.34858 9.96268 8.34858 9.30399C8.34858 8.6453 7.81461 8.11133 7.15592 8.11133C6.49723 8.11133 5.96326 8.6453 5.96326 9.30399C5.96326 9.96268 6.49723 10.4966 7.15592 10.4966Z" fill="black" stroke="#333333" stroke-width="0.183486"/>
+                              <path d="M12.844 10.4966C13.5027 10.4966 14.0367 9.96268 14.0367 9.30399C14.0367 8.6453 13.5027 8.11133 12.844 8.11133C12.1853 8.11133 11.6514 8.6453 11.6514 9.30399C11.6514 9.96268 12.1853 10.4966 12.844 10.4966Z" fill="black" stroke="#333333" stroke-width="0.183486"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_152_684">
+                                <rect width="20" height="20" fill="white" transform="translate(0 0.129883)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        <span class="badge badge-xl badge-error text-white p-1 indicator-item"style="background-color: black;">0</span>
+                      </div>
+                    </button>
+                  </div>
+              </div>
+
+        </nav>
+        <!-- end navigration section  -->
+       </div>
+       <!-- banner secton start -->
+       <div class="banner-section ">
+        <div>
+            <img src="./images/bannerimg.jpg" alt="banner">
+        </div>
+       </div>
+       <!-- banner secton end -->
+    </header>
+    <main class="">
+       <!-- card section1 start -->
+       <div class="card-contianer bg-gray-200  ">
+        <div class="py-20">
+        <div class="card-option1  bg-white grid grid-cols-6 gap-4 mx-10 py-8 px-5   ">
+            <!-- card-1 -->
+            
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-72  object-cover" src="./images/card1.jpg" alt="Product Image">
+                <div class="bg-red-100 ">
+                    <div class="font-bold  text-black text-center mb-2">Moringa 60 Cap (Pack of 2)</div>
+                    <p class="text-black text-center text-lg font-semibold ">₹ 410</p>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-72 object-cover" src="./images/card2.jpg" alt="Product Image">
+                <div class="bg-green-100">
+                    <div class="font-bold  text-black text-center mb-8">
+                        Tulsi Green Tea Classic</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 338</p>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-72 object-cover" src="./images/card3.jpg" alt="Product Image">
+                <div class="bg-red-100">
+                    <div class="font-bold  text-black text-center mb-2">Turmeric Latte Instant Premix 100gm</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+            <!-- card-4 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-72 object-cover" src="./images/card4.jpg" alt="Product Image">
+                <div class="bg-green-100">
+                    <div class="font-bold  text-black text-center mb-2">Turmeric Latte Instant Premix 100gm</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+            <!-- card-5 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-72  object-cover" src="./images/card5.jpg" alt="Product Image">
+                <div class="bg-red-100">
+                    <div class="font-bold  text-black text-center mb-2">Turmeric Latte Instant Premix 100gm</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+            <!-- card-6 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-72 object-cover" src="./images/card6.jpg" alt="Product Image">
+                <div class="bg-green-100">
+                    <div class="font-bold  text-black text-center mb-2">Turmeric Latte Instant Premix 100gm</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+        </div>
+       
+       </div>
+       </div>
+       <!-- card section1 end-->
+
+       <!-- banner section 2 start -->
+       <div class="banner2 mt-10 ">
+        <div class="banner2-img ">
+            <img src="./images/banner2.png" alt="">
+        </div>
+       </div>
+       <!-- banner section 2 start -->
+       <!-- product section start -->
+        <div class="product-container bg-gray-200  ">
+           <div class="tittle-container text-center pt-10">
+            <p class="text-xl text-gray-700 ">Just For You</p>
+            <h1 class="text-2xl font-bold">BEST SELLING PRODUCTS</h1>
+           </div>
+          <div class="all-product grid grid-cols-6 gap-4  mx-20 py-8 px-5  pb-40 ">
+          <!-- product1 -->
+          <div class="max-w-full md:max-w-fit  rounded overflow-hidden   ">
+            
+            <!-- Product Image -->
+            <img class="w-50  py-10 px-10 bg-white" src="./images/card11.jpg" alt="Product Image" class="w-full">
+          
+            <div class="px-2 py-4 items-center   ">
+                 <div class="flex justify-between items-center">
+                <!-- Price -->
+                <p class="text-green-700  text-xl font-bold text-base">$49.00 <sub class="text-gray-500 text-xl line-through">$52.00</sub></p>
+               
+              </div>
+              <!-- Product Name -->
+              <div class="font-bold text-lg
+               mb-2">Patali Khujurer Gur</div>
+              <div class="flex justify-evently items-center gap-4">
+                <p>1k</p>
+                <p>500G</p>
+              </div>
+
+              <!-- Rating -->
+              <div class="rating w-20 items-center">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+              </div>
+
+            </div>
+          
+         
+          </div>
+            <!-- product2-->
+            <div class="max-w-full md:max-w-fit rounded overflow-hidden ">
+            
+              <!-- Product Image -->
+              
+              <div class="relative">
+                <img class="w-50  py-10 px-10 bg-white " src="./images/card12.jpg" alt="Product Image" class="w-full">
+                  
+              <div class="px-6 ">
+                <span
+                  class="absolute top-3 w-10 left-2  flex items-center justify-center inline-block bg-black text-white  px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >New</span>
+                <!-- <span
+                  class="absolute top-0 left-0  flex items-center justify-center inline-block bg-green-500 text-white  px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >Offer</span> -->
+              </div>
+              </div>
+          
+              <div class="px-2 py-4 items-center   ">
+                   <div class="flex justify-between items-center">
+                  <!-- Price -->
+                  <p class="text-green-700  text-xl font-bold text-base">$49.00 <sub class="text-gray-500 text-xl line-through">$52.00</sub></p>
+                 
+                </div>
+                <!-- Product Name -->
+                <div class="font-bold text-lg mb-2">Patali Khujurer Gur</div>
+                <div class="flex justify-evently items-center gap-4">
+                  <p>250 G</p>
+                </div>
+  
+                <!-- Rating -->
+                <div class="rating w-20 items-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                </div>
+  
+              </div>
+            
+            </div>
+            <!-- product3-->
+            <div class="max-w-full md:max-w-fit rounded overflow-hidden    ">
+            
+              <!-- Product Image -->
+            
+              <div class="relative">
+                <img class="w-50  py-9  px-14 bg-white  " src="./images/card8.jpg" alt="Product Image" class="w-full">
+                  
+              <div class="px-6  ">
+                <span
+                  class="absolute top-3 w-10 left-2 mb-3   bg-black text-white  px-1 "
+                >New</span>
+                <span
+                  class="absolute top-3  right-2   bg-green-500 text-white  px-1 font-semibold "
+                >50% Off</span>
+              </div>
+              </div>
+              <div class="px-2 py-4 items-center   ">
+                   <div class="flex justify-between items-center">
+                  <!-- Price -->
+                  <p class="text-green-700  text-xl font-bold text-base">$50.00 <sub class="text-gray-500 text-xl line-through">$42.00</sub></p>
+                 
+                </div>
+                <!-- Product Name -->
+                <div class="font-bold text-lg  mb-2">Premium Ghee</div>
+                <div class="flex justify-evently items-center gap-4">
+                  <p>1 KG</p>
+                  
+                </div>
+  
+                <!-- Rating -->
+                <div class="rating w-20 items-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                </div>
+  
+              </div>
+            
+              <!-- Labels: New and Offer
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >New</span>
+                <span
+                  class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-800"
+                >Offer</span>
+              </div> -->
+            </div>
+            <!-- product4-->
+            <div class="max-w-full md:max-w-fit rounded overflow-hidden  ">
+            
+              <!-- Product Image -->
+              
+              <div class="relative">
+                <img class="w-50  py-11 px-10 bg-white " src="./images/card13.jpg" alt="Product Image" class="w-full">
+                  
+              <div class="px-6  ">
+                <!-- <span
+                  class="absolute top-3 w-10 left-2 mb-3   bg-black text-white  px-3 py-1  font-semibold "
+                >New</span> -->
+                <span
+                  class="absolute top-3  right-2    bg-green-500 text-white  px-1  font-semibold "
+                >50% Off</span>
+              </div>
+              </div>
+              <div class="px-2 py-4 items-center   ">
+                   <div class="flex justify-between items-center">
+                  <!-- Price -->
+                  <p class="text-green-700  text-xl font-bold text-base">$55.00 <sub class="text-gray-500 text-xl line-through">$52.00</sub></p>
+                 
+                </div>
+                <!-- Product Name -->
+                <div class="font-bold text-lg mb-2">Premium Honey</div>
+                <div class="flex justify-evently items-center gap-4">
+                  <p>2 KG</p>
+                  <p>800 G</p>
+                </div>
+  
+                <!-- Rating -->
+                <div class="rating w-20 items-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                </div>
+  
+              </div>
+            
+              <!-- Labels: New and Offer
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >New</span>
+                <span
+                  class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-800"
+                >Offer</span>
+              </div> -->
+            </div>
+            <!-- product5-->
+            <div class="max-w-full md:max-w-fit rounded overflow-hidden ">
+            
+              <!-- Product Image -->
+              <img class="w-70 py-8  px-5 bg-white " src="./images/card15.jpg" alt="Product Image" class="w-full">
+          
+              <div class="px-2 py-4 items-center   ">
+                   <div class="flex justify-between items-center">
+                  <!-- Price -->
+                  <p class="text-green-700  text-xl font-bold text-base">$60.00 <sub class="text-gray-500 text-xl line-through">$52.00</sub></p>
+                 
+                </div>
+                <!-- Product Name -->
+                <div class="font-bold text-lg mb-2">Black Rice Seed</div>
+                <div class="flex justify-evently items-center gap-4">
+                  <p>300 G</p>
+                  <p>500 G</p>
+                  
+                </div>
+  
+                <!-- Rating -->
+                <div class="rating w-20 items-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                </div>
+  
+              </div>
+            
+              <!-- Labels: New and Offer
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >New</span>
+                <span
+                  class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-800"
+                >Offer</span>
+              </div> -->
+            </div>
+            <!-- product6 -->
+            <div class="max-w-full md:max-w-fit overflow-hidden ">
+            
+              <!-- Product Image -->
+              
+              <div class="relative ">
+                <img class="w-70 py-12 bg-white px-3 " src="./images/card14.jpg" alt="Product Image" class="w-full">
+                  
+              <div class="px-6  ">
+                <!-- <span
+                  class="absolute top-3 w-10 left-2 mb-3  flex items-center justify-center inline-block bg-black text-white  px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >New</span> -->
+                <span
+                  class="absolute top-3  right-2  flex items-center justify-center inline-block bg-green-500 text-white  px-1  font-semibold text-green-800 "
+                >20% Off</span>
+              </div>
+              </div>
+              <div class="px-2 py-4 items-center   ">
+                   <div class="flex justify-between items-center">
+                  <!-- Price -->
+                  <p class="text-green-700  text-xl font-bold text-base">$80.00 <sub class="text-gray-500 text-xl line-through">$75.00</sub></p>
+                 
+                </div>
+                <!-- Product Name -->
+                <div class="font-bold text-xl mb-2">Quina Seeds</div>
+                <div class="flex justify-evently items-center gap-4">
+                  <p>1 KG</p>
+                  <p>500 G</p>
+                  
+                </div>
+  
+                <!-- Rating -->
+                <div class="rating w-20 items-center">
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                </div>
+  
+              </div>
+            
+              <!-- Labels: New and Offer
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-green-800 mr-2"
+                >New</span>
+                <span
+                  class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-blue-800"
+                >Offer</span>
+              </div> -->
+            </div>
+        </div>
+      </div>
+
+       <!-- product section end -->
+
+       <!-- Add to purchase section start  -->
+       <div class="addtocard-container pb-20 bg-white relative">
+       <div class="add-logo">
+       <img  class="mx-auto " src="./images/addlogo.jpg" alt="addlogo">
+       </div>
+       <div class="add-card grid grid-cols-4 gap-7 mx-20 mt-10 ">
+        <!-- add card 1 -->
+        <div class="card card-compact w-60   shadow-xl">
+          <img class="" src="./images/card19.jpg" alt="Card19" />
+          <!-- card bobdy -->
+          <div class="card-body text-center ">
+            <p class="text-lg font-bold">A2 Cow Cultured Ghee, Desi Gir Cow</p>
+            <div class="rating-review flex justify-between gap-4  ">
+              <div class="rating w-20 ">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked  />
+               
+              </div>
+              <div>
+              <p class=" font-bold mr-6 ">1629 reviews</p>
+            </div>
+            </div>
+            <P class="text-lg text-green-700 font-bold">$9.90 USD</P>
+            <div class="card-actions justify-end mx-auto ">
+              <button class=" rounded font-bold border-solid border-2 border-green-900 px-10 py-1 ">ADD TO CARD</button>
+            </div>
+          </div>
+        </div>
+        <!-- add card 2 -->
+        <div class="card card-compact w-60  shadow-xl">
+          <img src="./images/card10.jpg" alt="Card10" />
+          <!-- card bobdy -->
+          <div class="card-body text-center">
+            <p class="text-lg font-bold">Sugarcane Jaggery, Crushed
+              Granular</p>
+            <div class="rating-review flex justify-between gap-4  ">
+              <div class="rating w-20 ">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked  />
+               
+              </div>
+              <div>
+              <p class=" font-bold mr-8 text-sm">642 reviews</p>
+            </div>
+            </div>
+            <P class="text-lg text-green-700 font-bold">$5.93 USD</P>
+            <div class="card-actions justify-end mx-auto ">
+              <button class=" rounded font-bold border-solid border-2 border-green-900 px-10 py-1 ">ADD TO CARD</button>
+            </div>
+          </div>
+        </div>
+        <!-- add card 3 -->
+        <div class="card card-compact w-60  shadow-xl">
+          <img src="./images/card9.jpg" alt="Card9" />
+          <!-- card bobdy -->
+          <div class="card-body text-center">
+            <p class="text-lg font-bold">Sugarcane Jaggery Block 900g</p>
+            <div class="rating-review flex justify-between gap-4  ">
+              <div class="rating w-20 ">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked  />
+               
+              </div>
+              <div>
+              <p class=" font-bold mr-8 text-sm">717 reviews</p>
+            </div>
+            </div>
+            <P class="text-lg text-green-700 font-bold">$11.88 USD</P>
+            <div class="card-actions justify-end mx-auto ">
+              <button class=" rounded font-bold border-solid border-2 border-green-900 px-10 py-1 ">ADD TO CARD</button>
+            </div>
+          </div>
+        </div>
+        <!-- add card 4 -->
+        <div class="card card-compact w-60  shadow-xl">
+          <img src="./images/card16.jpg" alt="Card16" />
+          <!-- card bobdy -->
+          <div class="card-body text-center">
+            <p class="text-lg font-bold">Amlaprash (Limited Edition
+              Chyawanprash)</p>
+            <div class="rating-review flex justify-between gap-4  ">
+              <div class="rating w-20 ">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400"  />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" checked  />
+               
+              </div>
+              <div>
+              <p class=" font-bold mr-8 text-sm">637 reviews</p>
+            </div>
+            </div>
+            <P class="text-lg text-green-700 font-bold">$12.87 USD</P>
+            <div class="card-actions justify-end mx-auto ">
+              <button class=" rounded font-bold border-solid border-2 border-green-900 px-10 py-1 ">ADD TO CARD</button>
+            </div>
+          </div>
+        </div>
+       </div>
+      <div class=" absolute bottom-0 left-2/4 ">
+      <a href="product.html"> <button class="btn bg-green-900 text-white  hover:bg-green-800 ">All Product</button> </a>
+      </div>
+       </div>
+       <!-- Add to purchase section end  -->
+       <!-- banner 3 section start -->
+      <!-- our farm -->
+      <div class="farm-container ">
+        <div class="village-img ">
+          <img src="images/banner3.jpg" alt="banner3">
+        </div>
+        <h2 class="text-2xl font-bold text-center mt-10"> YOUR FARM CREATIONS</h2>
+        <div class="farm-img mx-20">
+          <div class="card-option1  bg-white grid grid-cols-6 gap-4  py-8 px-5   ">
+            <!-- card-1 -->
+            
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-40  object-cover" src="./images/card17.jpg" alt="Product Image">
+                <div class="bg-red-100 ">
+                    <div class="font-bold  text-black text-center mb-2">Natural Sweeteners</div>
+                    <p class="text-black text-center text-lg font-semibold ">₹ 410</p>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-40 object-cover" src="./images/card19.jpg" alt="Product Image">
+                <div class="bg-green-100">
+                    <div class="font-bold  text-black text-center mb-2">
+                      BILONA A2 GHEE</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 338</p>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-40 object-cover" src="./images/card20.jpg" alt="Product Image">
+                <div class="bg-red-100">
+                    <div class="font-bold  text-black text-center mb-2">Kitchen Essentials</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+            <!-- card-4 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-40 object-cover" src="./images/card21.jpg" alt="Product Image">
+                <div class="bg-green-100">
+                    <div class="font-bold  text-black text-center mb-2">Healthy Snacking</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+            <!-- card-5 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-40  object-cover" src="./images/card22.jpg" alt="Product Image">
+                <div class="bg-red-100">
+                    <div class="font-bold  text-black text-center mb-2">Breakfast & Snacks</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div>
+        
+            <!-- card-6 -->
+            <div class="max-w-fit rounded overflow-hidden ">
+                <img class="w-72 h-40 object-cover" src="./images/card6.jpg" alt="Product Image">
+                <div class="bg-green-100">
+                    <div class="font-bold  text-black text-center mb-2">Turmeric Latte</div>
+                    <p class="text-black text-center text-lg font-semibold">₹ 595</p>
+                </div>
+            </div> 
+        
+          </div>
+        </div>
+      </div>
+
+       <!-- banner 3 section end -->
+      </main>
+       <!-- footer section -->
+       
+       <footer class="footer p-10 bg-base-200 text-base-content bg-green-900">
+        <div class="footer-logo">
+          <img src="images/logo__1_-removebg-preview (3).png"  alt="">
+          <p class="text-white ">Healthy Eats collects pure and fresh <br> groceries directly from core farmers and <br> serve you to your door</p>
+          <div class="grid grid-flow-col gap-4 mt-5 ">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-white "><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-white"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-white"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </div>
+     
+        <nav class="text-white">
+          <h6 class="footer-title">Information</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact us</a>
+          <a class="link link-hover">Product</a>
+          <a class="link link-hover">Blog</a>
+        </nav> 
+        <nav class="text-white">
+          <h6 class="footer-title">Categories</h6> 
+          <a class="link link-hover">Fruits</a>
+          <a class="link link-hover">Vegitable</a>
+          <a class="link link-hover">Oli</a>
+          <a class="link link-hover">Ghee</a>
+        </nav>
+        <nav class="text-white">
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+
+      
+      </footer>
+      <div class="copyright bg-amber-500 py-2 text-center">
+        <p class=" text-white "> copyright &copy; 2024 Healthy Eats.</p>
+      </div>
+   
+    
+    
+</body>
+</html>
